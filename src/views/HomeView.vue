@@ -75,6 +75,7 @@
             <div class="text-2xl font-semibold">
               Now playing
               <img
+                @click="copyCurrentUrl()"
                 src="../assets/images/share-white.svg"
                 alt=""
                 class="inline-block ml-3"
